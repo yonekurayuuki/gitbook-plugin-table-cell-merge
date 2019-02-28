@@ -48,4 +48,7 @@ $ gitbook install
 ## As a reference
 
 * This plugin is developed with referring to `Markdown Enhanced Preview` which is a plugin for Atom or Visual Studio Code.
-* This plugin uses `Cheerio` package to parse HTML as dependencies.
+* This plugin uses `Cheerio` npm package to parse HTML as dependencies. This plugin is required to install `Cheerio` to your emvironment.
+    ```
+    $ npm install --save Cheerio
+    ```
