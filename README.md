@@ -43,9 +43,9 @@ $ gitbook install
 
 * To insert this plugin into package.json:
   
-  run the following code  
+  run the following code.
 
-  `$ npm install gitbook-plugin-cellmerge`
+  `$ npm install --save gitbook-plugin-cellmerge`
 
 ## As a reference
 
