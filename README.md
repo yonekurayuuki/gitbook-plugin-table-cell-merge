@@ -1,5 +1,5 @@
-# Merge cells in the table
-This is a GitBook plugin for extending table syntax. You can enable to merge cells in tables with this plugin. This plugin uses Cheerio as html parser.
+# Merge cells in the Tables for Markdown Syntax
+This is a GitBook plugin for extending markdown table syntax. You can enable to merge cells in tables with this plugin. 
 
 ## How to install it?
 Add it to your `book.json` configuration:
@@ -49,4 +49,6 @@ $ gitbook install
   `$ npm install gitbook-plugin-cellmerge`
 
 ## As a reference
-This plugin is developed with referring to `Markdown Enhanced Preview` which is a plugin for Atom or Visual Studio Code.
+
+* This plugin is developed with referring to `Markdown Enhanced Preview` which is a plugin for Atom or Visual Studio Code.
+* This plugin uses `Cheerio` package to parse HTML as dependencies.
