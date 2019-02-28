@@ -1,5 +1,5 @@
 {
-    "name": "gitbook-plugin-cellmerge",
+    "name": "gitbook-plugin-cell-merge",
     "description": "Plugin for merging cells in tables.",
     "main": "index.js",
     "version": "1.0.4",
