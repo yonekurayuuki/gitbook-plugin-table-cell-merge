@@ -1,42 +1,52 @@
-GitBook Sample Plugin
-==============
+# Merge cells in the table
+This is a GitBook plugin for extending table syntax. You can enable to merge cells in tables with this plugin. This plugin uses Cheerio as html parser.
 
-This is a model for GitBook plugins.
+## How to install it?
+Add it to your `book.json` configuration:
+
+```
+{
+  "plugins": ["cellmerge"]
+}
+```
+
+Install this plugin using:
+
+```
+$ gitbook install
+```
+
+## How to use it?
+
 
 ## How GitBook plugin works?
 
-A plugin for GitBook is a node package that can be published on [NPM](http://www.npmjs.org). It has to follow the name convention: `gitbook-plugin-*name*`.
+* To marge columns:
+  Enter `>` or `empty` in the cells.
 
-### package.json
+  ```
+  | a | b |
+  |---|---|
+  | > | 1 |
+  | 2 |   |
+  ```
 
-#### name
+* To marge rows:
+  Enter `^` in the cells.
 
-The package name should begin with ```gitbook-plugin-```.
+  ```
+  | a | b |
+  |---|---|
+  | 1 | 2 |
+  | ^ | 4 |
+  ```
+![sample](img/sample.png)
 
-Examples: `gitbook-plugin-mixpanel`, `gitbook-plugin-googleanalytics`.
+## How to add this plugin into package.json
 
-#### engine
+* To insert this plugin into package.json:
 
-The package.json should contain a `engine` field using [the standard norm](https://www.npmjs.org/doc/json.html#engines).
+  `$ npm install gitbook-plugin-cellmerge`
 
-```
-"engines": {
-    "gitbook": "*"
-}
-```
-
-For example if you want your plugin to supports only GitBook version supperior to 0.3.1:
-
-```
-"engines": {
-    "gitbook": ">=0.3.1"
-}
-```
-
-### entry point
-
-The plugin entry point should return an object with some metadata.
-
-
-=======
-# gitbook-plugin-cellmerge
+## As a reference
+This plugin is developed with referring to `Markdown Enhanced Preview` which is a plugin for Atom or Visual Studio Code.
