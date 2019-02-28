@@ -16,7 +16,7 @@ Install this plugin using:
 $ gitbook install
 ```
 
-## How GitBook plugin works?
+## How this plugin works?
 
 * To marge columns:
   Enter `>` or `empty` in the cells.
