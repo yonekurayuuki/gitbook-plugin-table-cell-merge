@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 GitBook Sample Plugin
 ==============
 
@@ -41,4 +40,3 @@ The plugin entry point should return an object with some metadata.
 
 =======
 # gitbook-plugin-cellmerge
->>>>>>> origin/master
