@@ -45,7 +45,7 @@ $ gitbook install
   
   run the following code.
 
-  `$ npm install --save gitbook-plugin-cellmerge`
+  `$ npm install --save gitbook-plugin-table-cell-merge`
 
 ## As a reference
 
