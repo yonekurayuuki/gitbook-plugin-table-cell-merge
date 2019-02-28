@@ -6,7 +6,7 @@ Add it to your `book.json` configuration:
 
 ```
 {
-  "plugins": ["cellmerge"]
+  "plugins": ["table-cell-merge"]
 }
 ```
 
