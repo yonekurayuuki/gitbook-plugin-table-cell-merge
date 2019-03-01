@@ -1,8 +1,8 @@
-# Merge cells in the Tables for Markdown Syntax
-This is a GitBook plugin for extending markdown table syntax. You can enable to merge cells in tables with this plugin. 
+# Merge Cells in the Tables for Markdown Syntax
+This is a GitBook plug-in for extending markdown table syntax. You can enable it to merge cells in tables with this plugin. 
 
-## How to install it?
-Add it to your `book.json` configuration:
+## How to install
+Add this plug-in to your `book.json` configuration:
 
 ```
 {
@@ -10,16 +10,19 @@ Add it to your `book.json` configuration:
 }
 ```
 
-Install this plugin using:
+Install this plugin using the following code:
 
 ```
 $ gitbook install
 ```
 
-## How this plugin works?
+## How this plugin works
 
 * To merge columns:
+<<<<<<< HEAD
+=======
 
+>>>>>>> de100f2e08f92a678a2ca9a9eaed9d711721f60e
   Enter `>` or `empty` in the cells.
 
   ```
@@ -30,7 +33,10 @@ $ gitbook install
   ```
 
 * To merge rows:
+<<<<<<< HEAD
+=======
 
+>>>>>>> de100f2e08f92a678a2ca9a9eaed9d711721f60e
   Enter `^` in the cells.
 
   ```
@@ -43,16 +49,19 @@ $ gitbook install
 
 ## How to add this plugin into package.json
 
-* To insert this plugin into package.json:
-  
-  run the following code.
+* Run the following command to insert this plug-in into package.json:
 
   `$ npm install --save gitbook-plugin-table-cell-merge`
 
-## As a reference
+## Reference
 
+<<<<<<< HEAD
+* This plug-in has been developed in referring to Markdown Enhanced Preview which is used for Atom and Visual Studio Code.
+* This plug-in uses the `Cheerio` npm package to parse HTML as dependencies. run the following command to install `Cheerio` to your environment.
+=======
 * This plugin is developed with referring to `Markdown Enhanced Preview` which is a plugin for Atom or Visual Studio Code.
 * This plugin uses `Cheerio` npm package to parse HTML as dependencies. This plugin is required to install `Cheerio` to your environment.
+>>>>>>> de100f2e08f92a678a2ca9a9eaed9d711721f60e
     ```
     $ npm install --save Cheerio
     ```
