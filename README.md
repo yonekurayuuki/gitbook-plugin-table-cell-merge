@@ -18,7 +18,8 @@ $ gitbook install
 
 ## How this plugin works?
 
-* To marge columns:
+* To merge columns:
+
   Enter `>` or `empty` in the cells.
 
   ```
@@ -28,7 +29,8 @@ $ gitbook install
   | 2 |   |
   ```
 
-* To marge rows:
+* To merge rows:
+
   Enter `^` in the cells.
 
   ```
@@ -50,7 +52,7 @@ $ gitbook install
 ## As a reference
 
 * This plugin is developed with referring to `Markdown Enhanced Preview` which is a plugin for Atom or Visual Studio Code.
-* This plugin uses `Cheerio` npm package to parse HTML as dependencies. This plugin is required to install `Cheerio` to your emvironment.
+* This plugin uses `Cheerio` npm package to parse HTML as dependencies. This plugin is required to install `Cheerio` to your environment.
     ```
     $ npm install --save Cheerio
     ```
