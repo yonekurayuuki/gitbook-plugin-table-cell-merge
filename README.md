@@ -1,5 +1,5 @@
 # Merge Cells in the Tables for Markdown Syntax
-This is a GitBook plug-in for extending markdown table syntax. You can enable it to merge cells in tables with this plugin. 
+This is a GitBook plug-in for extending markdown table syntax. You can enable it to merge cells in tables with this plug-in. 
 
 ## How to install
 Add this plug-in to your `book.json` configuration:
@@ -10,19 +10,15 @@ Add this plug-in to your `book.json` configuration:
 }
 ```
 
-Install this plugin using the following code:
+Install this plug-in using the following code:
 
 ```
 $ gitbook install
 ```
 
-## How this plugin works
+## How this plug-in works
 
 * To merge columns:
-<<<<<<< HEAD
-=======
-
->>>>>>> de100f2e08f92a678a2ca9a9eaed9d711721f60e
   Enter `>` or `empty` in the cells.
 
   ```
@@ -33,10 +29,6 @@ $ gitbook install
   ```
 
 * To merge rows:
-<<<<<<< HEAD
-=======
-
->>>>>>> de100f2e08f92a678a2ca9a9eaed9d711721f60e
   Enter `^` in the cells.
 
   ```
@@ -47,7 +39,7 @@ $ gitbook install
   ```
 ![sample](img/sample.png)
 
-## How to add this plugin into package.json
+## How to add this plug-in into package.json
 
 * Run the following command to insert this plug-in into package.json:
 
@@ -55,13 +47,8 @@ $ gitbook install
 
 ## Reference
 
-<<<<<<< HEAD
 * This plug-in has been developed in referring to Markdown Enhanced Preview which is used for Atom and Visual Studio Code.
 * This plug-in uses the `Cheerio` npm package to parse HTML as dependencies. run the following command to install `Cheerio` to your environment.
-=======
-* This plugin is developed with referring to `Markdown Enhanced Preview` which is a plugin for Atom or Visual Studio Code.
-* This plugin uses `Cheerio` npm package to parse HTML as dependencies. This plugin is required to install `Cheerio` to your environment.
->>>>>>> de100f2e08f92a678a2ca9a9eaed9d711721f60e
     ```
     $ npm install --save Cheerio
     ```
